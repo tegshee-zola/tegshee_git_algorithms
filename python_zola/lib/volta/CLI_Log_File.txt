@@ -1,0 +1,178 @@
+As of 7/27/18 3pm
+
+(298)CTRL>
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x1a4
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x1a4 1
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x107
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x107 1
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>mco 5 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>mco 3 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>bq-check
+Received error status 0xFF
+|Mode|Normal|
+|ADC gain,ADC offset|0,0|
+|State Reg|0xff|
+|cell_mv_0|0|
+|cell_mv_1|0|
+|cell_mv_2|0|
+|cell_mv_3|0|
+|cell_mv_4|0|
+|cell_mv_5|0|
+|cell_mv_6|0|
+|cell_mv_7|0|
+|cell_mv_8|0|
+|cell_mv_9|0|
+|Pack Voltage mV|0|
+|ntc_temp_C_0|110|
+|ntc_temp_C_1|110|
+|Current mA,Total charge LSB|0,0|
+|ReturnCode|OK|
+(299)CTRL>batt-temp
+0  --> Raw 0fff | 3000   mV | 100000 ohm | -27 C
+1  --> Raw 0feb | 2985   mV | 94761  ohm | -26 C
+2  --> Raw 0fd3 | 2967   mV | 89099  ohm | -25 C
+3  --> Raw 0f7d | 2904   mV | 73333  ohm | -21 C
+4  --> Raw 0fbd | 2951   mV | 84555  ohm | -24 C
+5  --> Raw 0f34 | 2851   mV | 63496  ohm | -18 C
+6  --> Raw 0fae | 2940   mV | 81666  ohm | -23 C
+7  --> Raw 0fff | 3000   mV | 100000 ohm | -27 C
+8  --> Raw 0fff | 3000   mV | 100000 ohm | -27 C
+9  --> Raw 0f57 | 2876   mV | 67830  ohm | -20 C
+10 --> Raw 0fff | 3000   mV | 100000 ohm | -27 C
+11 --> Raw 0f9c | 2927   mV | 78471  ohm | -22 C
+Read temperatures:
+|name_0,C_0|PACK_1,-27|
+|name_1,C_1|PACK_2,-26|
+|name_2,C_2|PACK_3,-25|
+|name_3,C_3|PACK_4,-21|
+|name_4,C_4|PACK_5,-24|
+|name_5,C_5|PACK_3B,-18|
+|name_6,C_6|PACK_1B,-23|
+|name_7,C_7|DEBG_2,-27|
+|name_8,C_8|DEBG_1,-27|
+|name_9,C_9|POWER,-20|
+|name_10,C_10|PACK_2B,-27|
+|name_11,C_11|PACK_4B,-22|
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>bq-rd 5
+Error while reading register
+|ReturnCode|ERROR|
+(299)CTRL>
+(299)CTRL>bq-wr x 0
+Error while writing register
+|ReturnCode|ERROR|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x193
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x193 1
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x193
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x193 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x186
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x186 1
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x186
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x186 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x1C3
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x1C3 1
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x1C3
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x1C3 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>pwm-freq 3 330
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x182
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x182 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>comp-stop
+|ReturnCode|OK|
+(299)CTRL>adc-seq-req 2
+ADC acquisition complete:
+|ch0_raw,ch0_mv|0x0e9b,2739|
+|ch1_raw,ch1_mv|0x0539,979|
+|ch2_raw,ch2_mv|0x00a7,122|
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>tsc-read
+|Value|1181|
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>eac-ping
+EAC is currently off so command cannot be sent
+|ReturnCode|ERROR|
+(299)CTRL>
+(299)CTRL>cc1310-version
+ret_code: 1
+|ReturnCode|ERROR|
+(299)CTRL>cc2630-version
+ret_code: 1
+|ReturnCode|ERROR|
+(299)CTRL>
+(299)CTRL>spi-flash-check
+|JedID1,JedID2,JedID3|0xEF,0x40,0x17|
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>whoami
+|ReturnCode|NOT_IMPLEMENTED|
+(299)CTRL>
+(299)CTRL>keypad-scan 4
+|KeyData|0|
+|ReturnCode|OK|
+(303)CTRL>
+(303)CTRL>lcd-screen 1
+|ReturnCode|OK|
+(304)CTRL>lcd-screen 4
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>comp-stop
+|ReturnCode|OK|
+(304)CTRL>adc-seq-req 2
+ADC acquisition complete:
+|ch0_raw,ch0_mv|0x0fff,3000|
+|ch1_raw,ch1_mv|0x060e,1135|
+|ch2_raw,ch2_mv|0x00a5,120|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>gsm-version
+|GSMFWVer|G510_V0D.20.39_T0B|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>gsm-id
+|GSMImei,GSMImsi|865886037744907 ,20404339764956|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>gsm-status
+|GSMIPAddress|10.112.101.99|
+|GSMOperator|T-Mobile( |
+|GSMStatusBits|0x04FC|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>

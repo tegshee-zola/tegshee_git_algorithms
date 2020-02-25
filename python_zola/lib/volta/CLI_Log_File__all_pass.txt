@@ -1,0 +1,307 @@
+(298)CTRL>
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x1a4
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x1a4 1
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>gpio-cfg 0x107
+|ReturnCode|OK|
+(299)CTRL>gpio-write 0x107 1
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>mco 5 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>mco 3 0
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>ntc-temp
+Read temperatures:
+|PACK_NTC_1A_temp_c,PACK_NTC_1A_mv|23,1500|
+|PACK_NTC_1B_temp_c,PACK_NTC_1B_mv|23,1501|
+|PACK_NTC_1C_temp_c,PACK_NTC_1C_mv|23,1502|
+|PACK_NTC_2A_temp_c,PACK_NTC_2A_mv|23,1503|
+|PACK_NTC_2B_temp_c,PACK_NTC_2B_mv|23,1504|
+|PACK_NTC_2C_temp_c,PACK_NTC_2C_mv|23,1505|
+|NTC_AMBIENT_temp_c,NTC_AMBIENT_mv|23,1509|
+|POWER_NTC_temp_c,POWER_NTC_mv|23,1510|
+|INV_NTC_1_temp_c,INV_NTC_1_mv|23,1511|
+|INV_NTC_2_temp_c,INV_NTC_2_mv|23,1512|
+|INV_NTC_3_temp_c,INV_NTC_3_mv|23,1513|
+|INV_NTC_4_temp_c,INV_NTC_4_mv|23,1514|
+|ANA_MUX_temp_c,ANA_MUX_mv|23,1515|
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>adc-seq-req 2
+ADC acquisition complete:
+|ch0_raw,ch0_mv|0x0e9b,2739|
+|ch1_raw,ch1_mv|0x0539,979|
+|ch2_raw,ch2_mv|0x00a7,122|
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>tsc-read
+|Value|315|
+|ReturnCode|OK|
+(299)CTRL>
+
+(210)CTRL>eac-list
+reporting 1 inverters
+
+|id,SN MSB,SN LSB,type|0,00 00 00 00 00 07,00000003,0|
+|ReturnCode|OK|
+(299)CTRL>eac-ping
+EAC is currently off so command cannot be sent
+|ReturnCode|ERROR|
+(299)CTRL>
+(299)CTRL>cc1310-version
+ret_code: 1
+|ReturnCode|ERROR|
+(299)CTRL>cc2630-version
+ret_code: 1
+|ReturnCode|ERROR|
+(299)CTRL>
+(299)CTRL>spi-flash-check
+|JedID1,JedID2,JedID3|0xEF,0x40,0x17|
+|ReturnCode|OK|
+(299)CTRL>
+(299)CTRL>whoami
+|ReturnCode|NOT_IMPLEMENTED|
+(299)CTRL>
+(299)CTRL>keypad-scan 4
+|KeyData|0|
+|ReturnCode|OK|
+(303)CTRL>
+(303)CTRL>lcd-screen 1
+|ReturnCode|OK|
+(304)CTRL>lcd-screen 4
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>comp-stop
+|ReturnCode|OK|
+(304)CTRL>adc-seq-req 2
+ADC acquisition complete:
+|ch0_raw,ch0_mv|0x0fff,3000|
+|ch1_raw,ch1_mv|0x060e,1135|
+|ch2_raw,ch2_mv|0x00a5,120|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>gsm-version
+|GSMFWVer|G510_V0D.20.39_T0B|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>gsm-id
+|GSMImei,GSMImsi|865886037744907 ,20404339764956|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>gsm-status
+|GSMIPAddress|10.112.101.99|
+|GSMOperator|T-Mobile( |
+|GSMStatusBits|0x04FC|
+|ReturnCode|OK|
+(304)CTRL>
+(304)CTRL>
+(57)CTRL>bq-wr 5 0x40
+|ReturnCode|OK|
+(65)CTRL>gpio-cfg 0x185
+|ReturnCode|OK|
+(65)CTRL>gpio-write 0x185 0
+|ReturnCode|OK|
+(65)CTRL>gpio-cfg 0x175
+|ReturnCode|OK|
+(65)CTRL>gpio-write 0x175 0
+|ReturnCode|OK|
+(65)CTRL>gpio-cfg 0x135
+|ReturnCode|OK|
+(65)CTRL>gpio-write 0x135 0
+|ReturnCode|OK|
+(65)CTRL>gpio-cfg 0x183
+|ReturnCode|OK|
+(65)CTRL>gpio-write 0x183 0
+|ReturnCode|OK|
+(66)CTRL>
+(66)CTRL>
+(112)CTRL>
+(112)CTRL>gpio-cfg 0x185
+|ReturnCode|OK|
+(112)CTRL>gpio-write 0x185 1
+|ReturnCode|OK|
+(112)CTRL>gpio-cfg 0x175
+|ReturnCode|OK|
+(113)CTRL>gpio-write 0x175 1
+|ReturnCode|OK|
+(113)CTRL>gpio-cfg 0x135
+|ReturnCode|OK|
+(113)CTRL>gpio-write 0x135 1
+|ReturnCode|OK|
+(113)CTRL>dac-set 1 3000
+|ReturnCode|OK|
+(113)CTRL>gpio-cfg 0x1e5
+|ReturnCode|OK|
+(113)CTRL>gpio-write 0x1e5 1
+|ReturnCode|OK|
+(113)CTRL>gpio-cfg 0x1a5
+|ReturnCode|OK|
+(113)CTRL>gpio-write 0x1a5 1
+|ReturnCode|OK|
+(113)CTRL>gpio-cfg 0x183
+|ReturnCode|OK|
+(113)CTRL>gpio-write 0x183 1
+|ReturnCode|OK|
+(113)CTRL>bq-wr 5 0x43
+|ReturnCode|OK|
+(119)CTRL>gpio-cfg 0x111
+|ReturnCode|OK|
+(119)CTRL>gpio-write 0x111 1
+|ReturnCode|OK|
+(119)CTRL>
+(138)CTRL>
+(139)CTRL>
+(139)CTRL>
+(139)CTRL>Test: notification is 2
+
+(185)CTRL>
+(185)CTRL>
+(185)CTRL>Test: notification is 2
+
+(326)CTRL>
+(326)CTRL>
+(343)CTRL>
+(343)CTRL>
+(344)CTRL>eac-power 0
+|ReturnCode|OK|
+(347)CTRL>Test: notification is 10
+User requested to power down the EAC but it is already off ... Ignoring
+
+(348)CTRL>eac-power 1
+|ReturnCode|OK|
+(382)CTRL>
+(383)CTRL>
+(853)CTRL>
+(857)CTRL>bq-check
+|Mode|Normal|
+|ADC gain,ADC offset|377,47|
+|State Reg|0x0|
+|cell_mv_0|3146|
+|cell_mv_1|3133|
+|cell_mv_2|3144|
+|cell_mv_3|3156|
+|cell_mv_4|3150|
+|cell_mv_5|3132|
+|cell_mv_6|3139|
+|cell_mv_7|3175|
+|cell_mv_8|3139|
+|cell_mv_9|3153|
+|Pack Voltage mV|31472|
+|ntc_temp_C_0|23|
+|ntc_temp_C_1|23|
+|Current mA,Total charge LSB|-1057,-556504|
+|ReturnCode|OK|
+(860)CTRL>
+(861)CTRL>gpio-write 0x111 0
+|ReturnCode|OK|
+(868)CTRL>bq-wr 0x6 0x9F
+
+
+(860)CTRL>gpio-cfg 0x1b5
+|ReturnCode|OK|
+(860)CTRL>gpio-write 0x1b5 0
+|ReturnCode|OK|
+(860)CTRL>gpio-write 0x1b5 1
+|ReturnCode|OK|
+(860)CTRL>
+(860)CTRL>
+(860)CTRL>
+
+(146)CTRL>bq-check
+|Mode|Normal|
+|ADC gain,ADC offset|377,44|
+|State Reg|0x0|
+|cell_mv_0|3245|
+|cell_mv_1|3248|
+|cell_mv_2|3247|
+|cell_mv_3|3248|
+|cell_mv_4|3252|
+|cell_mv_5|3233|
+|cell_mv_6|3246|
+|cell_mv_7|3244|
+|cell_mv_8|3246|
+|cell_mv_9|3241|
+|Pack Voltage mV|32469|
+|ntc_temp_C_0|25|
+|ntc_temp_C_1|26|
+|Current mA,Total charge LSB|-16,-1847|
+|ReturnCode|OK|
+(146)CTRL>
+
+(76)CTRL>flash-erase-page 254
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-unit-id 5678902345
+|ReturnCode|OK|
+(78)CTRL>flash-get-unit-id
+|UnitID|5678902345|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-device-key 00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF
+|ReturnCode|OK|
+(78)CTRL>flash-get-device-key
+|DeviceKey|00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-salt-key 10667071f6ac879048fab0b7ba24135bc15a5d82108ecc788803f32e990eb22eed4cfe3a8bad9b527036e506e19f6e48ab9368123d025fb62d2b603f75080d7d
+|ReturnCode|OK|
+(78)CTRL>flash-get-salt-key
+|SaltKey|10667071F6AC879048FAB0B7BA24135BC15A5D82108ECC788803F32E990EB22EED4CFE3A8BAD9B527036E506E19F6E48AB9368123D025FB62D2B603F75080D7D|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-system-key f78fc37b89098874660a2d038d816933198370ce1144ff011fe5dfcb4a8f84e4134b9dc4046e054c212efcdf0d56cc9abbaf02322e4b4cc9a0df55993fc6ee73
+|ReturnCode|OK|
+(78)CTRL>flash-get-system-key
+|SystemKey|F78FC37B89098874660A2D038D816933198370CE1144FF011FE5DFCB4A8F84E4134B9DC4046E054C212EFCDF0D56CC9ABBAF02322E4B4CC9A0DF55993FC6EE73|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-eac-id 112233445566
+|ReturnCode|OK|
+(78)CTRL>flash-get-eac-id
+|EacId|112233445566|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-eac-key 112233445566778899AABBCCDDEEFF00
+|ReturnCode|OK|
+(78)CTRL>flash-get-eac-key
+|EacKey|112233445566778899AABBCCDDEEFF00|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-inv-id 0 Inv_0001
+|ReturnCode|OK|
+(78)CTRL>flash-get-inv-id 0
+|InverterNum,InverterID|0,Inv_0001|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-inv-id 1 Inv_0002
+|ReturnCode|OK|
+(78)CTRL>flash-get-inv-id 1
+|InverterNum,InverterID|1,Inv_0002|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-inv-id 2 Inv_0003
+|ReturnCode|OK|
+(78)CTRL>flash-get-inv-id 2
+|InverterNum,InverterID|2,Inv_0003|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-batt-id 0 Batt0001
+|ReturnCode|OK|
+(78)CTRL>flash-get-batt-id 0
+|BattNum,BattID|0,Batt0001|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>flash-set-batt-id 1 Batt0002
+|ReturnCode|OK|
+(78)CTRL>flash-get-batt-id 1
+|BattNum,BattID|1,Batt0002|
+|ReturnCode|OK|
+(78)CTRL>
+(78)CTRL>
+
