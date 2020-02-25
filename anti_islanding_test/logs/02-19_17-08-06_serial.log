@@ -1,0 +1,67 @@
+17:08:06 [ COM3] 
+17:08:06 [ COM3] (25527)CTRL>
+17:08:06 [ COM3] time-set 1582160886
+17:08:06 [ COM3] Setting time to 1582160886
+17:08:06 [ COM3] |ReturnCode|OK|
+17:08:06 [ COM3] (25527)CTRL>
+17:08:06 [ COM3] 
+17:08:06 [ COM3] (25527)CTRL>
+17:08:06 [ COM3] prov-set 3
+17:08:06 [ COM3] |ReturnCode|OK|
+17:08:06 [ COM3] (25527)CTRL>
+17:08:17 [ COM3] 
+17:08:17 [ COM3] (25538)CTRL>
+17:08:17 [ COM3] eac-grid-data
+17:08:17 [ COM3] |ret code|0x0|
+17:08:17 [ COM3] |Grid contactor status|Opened|
+17:08:17 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7365,10415,838693862,402|
+17:08:17 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|181,256,1099460628,3072,-32|
+17:08:17 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+17:08:17 [ COM3] |ReturnCode|OK|
+17:08:17 [ COM3] (25538)CTRL>
+17:08:17 [ COM3] 
+17:08:17 [ COM3] (25538)CTRL>
+17:08:17 [ COM3] eac-grid-data
+17:08:17 [ COM3] |ret code|0x0|
+17:08:17 [ COM3] |Grid contactor status|Opened|
+17:08:17 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7398,10463,838078280,237|
+17:08:17 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|182,256,958450631,9216,-264|
+17:08:17 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+17:08:17 [ COM3] |ReturnCode|OK|
+17:08:17 [ COM3] (25538)CTRL>
+17:08:17 [ COM3] 
+17:08:17 [ COM3] (25538)CTRL>
+17:08:17 [ COM3] eac-grid-data
+17:08:17 [ COM3] |ret code|0x0|
+17:08:17 [ COM3] |Grid contactor status|Opened|
+17:08:17 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7422,10495,839685053,574|
+17:08:17 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|181,256,1180999150,4608,-85|
+17:08:17 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+17:08:17 [ COM3] |ReturnCode|OK|
+17:08:17 [ COM3] (25538)CTRL>
+17:08:18 [ COM3] 
+17:08:18 [ COM3] (25539)CTRL>
+17:08:18 [ COM3] eac-grid-ctrl 1
+17:08:18 [ COM3] |ret code|0x0|
+17:08:18 [ COM3] |ReturnCode|OK|
+17:08:18 [ COM3] (25539)CTRL>
+17:08:29 [ COM3] 
+17:08:29 [ COM3] (25550)CTRL>
+17:08:29 [ COM3] eac-grid-data
+17:08:29 [ COM3] |ret code|0x0|
+17:08:29 [ COM3] |Grid contactor status|Opened|
+17:08:29 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7416,10488,838641694,349|
+17:08:29 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|182,256,497233695,6656,-182|
+17:08:29 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+17:08:29 [ COM3] |ReturnCode|OK|
+17:08:29 [ COM3] (25550)CTRL>
+17:08:29 [ COM3] 
+17:08:29 [ COM3] (25550)CTRL>
+17:08:29 [ COM3] eac-grid-data
+17:08:29 [ COM3] |ret code|0x0|
+17:08:29 [ COM3] |Grid contactor status|Opened|
+17:08:29 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7419,10493,838662561,374|
+17:08:29 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|181,256,497233695,5632,-432|
+17:08:29 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+17:08:29 [ COM3] |ReturnCode|OK|
+17:08:29 [ COM3] (25550)CTRL>

@@ -1,0 +1,11 @@
+16:40:49 [ COM3] 
+16:40:49 [ COM3] (23890)CTRL>
+16:40:49 [ COM3] time-set 1582159249
+16:40:49 [ COM3] Setting time to 1582159249
+16:40:49 [ COM3] |ReturnCode|OK|
+16:40:49 [ COM3] (23890)CTRL>
+16:40:49 [ COM3] 
+16:40:49 [ COM3] (23890)CTRL>
+16:40:49 [ COM3] prov-set 3
+16:40:49 [ COM3] |ReturnCode|OK|
+16:40:49 [ COM3] (23890)CTRL>

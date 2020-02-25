@@ -1,0 +1,146 @@
+10:48:02 [ COM3] 
+10:48:02 [ COM3] (595)CTRL>
+10:48:02 [ COM3] time-set 1582310882
+10:48:02 [ COM3] Setting time to 1582310882
+10:48:02 [ COM3] |ReturnCode|OK|
+10:48:02 [ COM3] (595)CTRL>
+10:48:02 [ COM3] 
+10:48:02 [ COM3] (595)CTRL>
+10:48:02 [ COM3] prov-set 3
+10:48:02 [ COM3] |ReturnCode|OK|
+10:48:02 [ COM3] (595)CTRL>
+10:49:03 [ COM3] 
+10:49:03 [ COM3] (655)CTRL>
+10:49:04 [ COM3] eac-grid-ctrl 1
+10:49:04 [ COM3] |ret code|0x0|
+10:49:04 [ COM3] |ReturnCode|OK|
+10:49:04 [ COM3] (656)CTRL>
+10:50:04 [ COM3] EacProcessCommand: The returned status wasn't 200 OK, hostapi_status = 404. 
+10:50:04 [ COM3] eac response failure: 65940
+10:50:04 [ COM3] EacProcessCommand: The returned status wasn'thostapi_status = 404. 
+10:50:04 [ COM3] eac response failure: 65940
+10:50:04 [ COM3] Box 0, inverter 2 data acquisition failed
+10:50:04 [ COM3] Attempting to send bias of -144 (q8) to active inverters of box 1.
+10:50:04 [ COM3] 
+10:50:04 [ COM3] (717)CTRL>
+10:50:04 [ COM3] eac-grid-data
+10:50:04 [ COM3] |ret code|0x0|
+10:50:04 [ COM3] |Grid contactor status|Closed|
+10:50:04 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7140,10098,838203483,427|
+10:50:04 [ COM3] |current_rms_Q10_in_A,current_ampl_Q10_in_A,current_thd_Q16,current_power_Q4_in_W,current_reactive_power_Q0_in_VAr|771,1089,4577,-2685,1|
+10:50:04 [ COM3] |MID Algorithm last decision,last time since bad remote grid|1,-1|
+10:50:04 [ COM3] |ReturnCode|OK|
+10:50:04 [ COM3] (717)CTRL>
+10:50:14 [ COM3] Disabling high priority load port
+10:50:14 [ COM3] Disabling low priority load port
+10:50:14 [ COM3] Enabling high priority load port
+10:50:14 [ COM3] Low priority load port inhibited eLoadPortClosePrevent: 2. 
+10:50:14 [ COM3] Disabling high priority load port
+10:50:14 [ COM3] 
+10:50:14 [ COM3] (727)CTRL>
+10:50:14 [ COM3] eac-grid-data
+10:50:14 [ COM3] |ret code|0x0|
+10:50:14 [ COM3] |Grid contactor status|Opened|
+10:50:14 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7416,10488,839278143,511|
+10:50:14 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|7166,10134,839695487,607,-237|
+10:50:14 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,723|
+10:50:14 [ COM3] |ReturnCode|OK|
+10:50:14 [ COM3] (727)CTRL>
+10:50:16 [ COM3] 
+10:50:16 [ COM3] (728)CTRL>
+10:50:17 [ COM3] eac-grid-ctrl 1
+10:50:17 [ COM3] |ret code|0x0|
+10:50:17 [ COM3] |ReturnCode|OK|
+10:50:17 [ COM3] (730)CTRL>
+10:51:17 [ COM3] 
+10:51:17 [ COM3] (790)CTRL>
+10:51:17 [ COM3] eac-grid-data
+10:51:17 [ COM3] |ret code|0x0|
+10:51:17 [ COM3] |Grid contactor status|synchronizing|
+10:51:17 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7205,10190,838339120,257|
+10:51:17 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|7138,10095,839351178,505,266|
+10:51:17 [ COM3] |MID Algorithm last decision,last time since bad remote grid|1,723|
+10:51:17 [ COM3] |ReturnCode|OK|
+10:51:17 [ COM3] (790)CTRL>
+10:51:27 [ COM3] Enabling high priority load port
+10:51:27 [ COM3] Enabling low priority load port
+10:51:27 [ COM3] Disabling high priority load port
+10:51:27 [ COM3] Disabling low priority load port
+10:51:27 [ COM3] Enabling high priority load port
+10:51:27 [ COM3] 
+10:51:27 [ COM3] (800)CTRL>
+10:51:27 [ COM3] eac-grid-data
+10:51:27 [ COM3] |ret code|0x0|
+10:51:27 [ COM3] |Grid contactor status|Opened|
+10:51:27 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7311,10339,840467573,582|
+10:51:27 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|7150,10112,837848741,427,373|
+10:51:27 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+10:51:27 [ COM3] |ReturnCode|OK|
+10:51:27 [ COM3] (800)CTRL>
+10:51:29 [ COM3] Low priority load port inhibited eLoadPortClosePrevent: 2. 
+10:51:29 [ COM3] Disabling high priority load port
+10:51:29 [ COM3] 
+10:51:29 [ COM3] (801)CTRL>
+10:51:29 [ COM3] eac-grid-ctrl 1
+10:51:29 [ COM3] |ret code|0x0|
+10:51:29 [ COM3] |ReturnCode|OK|
+10:51:29 [ COM3] (802)CTRL>
+10:52:30 [ COM3] 
+10:52:30 [ COM3] (862)CTRL>
+10:52:30 [ COM3] eac-grid-data
+10:52:30 [ COM3] |ret code|0x0|
+10:52:30 [ COM3] |Grid contactor status|synchronizing|
+10:52:30 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7318,10349,841114455,620|
+10:52:30 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|7197,10178,839632885,656,-706|
+10:52:30 [ COM3] |MID Algorithm last decision,last time since bad remote grid|1,801|
+10:52:30 [ COM3] |ReturnCode|OK|
+10:52:30 [ COM3] (862)CTRL>
+10:52:40 [ COM3] 
+10:52:40 [ COM3] (873)CTRL>
+10:52:40 [ COM3] eac-grid-data
+10:52:40 [ COM3] |ret code|0x0|
+10:52:40 [ COM3] |Grid contactor status|Opened|
+10:52:40 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7393,10455,839966760,614|
+10:52:40 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|7133,10087,839778956,727,746|
+10:52:40 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,870|
+10:52:40 [ COM3] |ReturnCode|OK|
+10:52:40 [ COM3] (873)CTRL>
+10:52:41 [ COM3] 
+10:52:41 [ COM3] (874)CTRL>
+10:52:43 [ COM3] eac-grid-ctrl 1
+10:52:43 [ COM3] |ret code|0x0|
+10:52:43 [ COM3] |ReturnCode|OK|
+10:52:43 [ COM3] (876)CTRL>
+10:53:43 [ COM3] Enabling high priority load port
+10:53:43 [ COM3] Enabling low priority load port
+10:53:43 [ COM3] 
+10:53:43 [ COM3] (936)CTRL>
+10:53:43 [ COM3] eac-grid-data
+10:53:43 [ COM3] |ret code|0x0|
+10:53:43 [ COM3] |Grid contactor status|Closed|
+10:53:43 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7149,10111,838036546,259|
+10:53:43 [ COM3] |current_rms_Q10_in_A,current_ampl_Q10_in_A,current_thd_Q16,current_power_Q4_in_W,current_reactive_power_Q0_in_VAr|775,1096,3953,-2705,1|
+10:53:43 [ COM3] |MID Algorithm last decision,last time since bad remote grid|1,-1|
+10:53:43 [ COM3] |ReturnCode|OK|
+10:53:43 [ COM3] (936)CTRL>
+10:53:53 [ COM3] Disabling high priority load port
+10:53:53 [ COM3] Disabling low priority load port
+10:53:53 [ COM3] Enabling high priority load port
+10:53:53 [ COM3] Low priority load port inhibited eLoadPortClosePrevent: 2. 
+10:53:53 [ COM3] Disabling high priority load port
+10:53:53 [ COM3] 
+10:53:53 [ COM3] (946)CTRL>
+10:53:53 [ COM3] eac-grid-data
+10:53:53 [ COM3] |ret code|0x0|
+10:53:53 [ COM3] |Grid contactor status|Opened|
+10:53:53 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7343,10384,839580717,580|
+10:53:53 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|7198,10180,839090339,502,-716|
+10:53:53 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,942|
+10:53:53 [ COM3] |ReturnCode|OK|
+10:53:53 [ COM3] (946)CTRL>
+10:53:55 [ COM3] 
+10:53:55 [ COM3] (947)CTRL>
+10:53:56 [ COM3] eac-grid-ctrl 1
+10:53:56 [ COM3] |ret code|0x0|
+10:53:56 [ COM3] |ReturnCode|OK|
+10:53:56 [ COM3] (949)CTRL>

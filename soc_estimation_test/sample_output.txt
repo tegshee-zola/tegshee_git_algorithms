@@ -1,0 +1,63 @@
+(1043)CTRL>eac-inv-data
+Expected eac-inv-data sn0 sn1 sn2 sn3 sn4 sn5
+
+|ReturnCode|SYNTAX_ERROR|
+(1049)CTRL>eac-sn-get
+|ret code|0x0|
+|EAC serial|00 30 00 00 04 82|
+|ReturnCode|OK|
+(1056)CTRL>eac-list
+|ret code|0x0|
+|num_inverters|10|
+|SN_0,type_0,state_0|12 19 11 04 07 76,3, active|
+|SN_1,type_1,state_1|12 19 11 04 60 01,3, active|
+|SN_2,type_2,state_2|12 19 10 05 13 83,3, active|
+|SN_3,type_3,state_3|12 19 11 04 59 87,3, active|
+|SN_4,type_4,state_4|12 19 11 04 04 62,3, provisioned|
+|SN_5,type_5,state_5|12 19 11 04 06 18,3, provisioned|
+|SN_6,type_6,state_6|12 19 10 05 12 81,3, provisioned|
+|SN_7,type_7,state_7|12 19 11 04 06 19,3, provisioned|
+|SN_8,type_8,state_8|00 00 00 00 00 17,2, provisioned|
+|SN_9,type_9,state_9|00 00 00 00 00 15,2, provisioned|
+|Last known inverter data UTC time|1582582155|
+|Currently active PV inverters|0|
+|box 0 active inverters|4|
+|ReturnCode|OK|
+(1069)CTRL>eac-inv-data 12 19 11 04 07 76
+|Telemetry ret code|0x0|
+|SN|12 19 11 04 07 76|
+|current_Q10_in_A, voltage_Q5_in_V, power_Q4_in_W, freq_Q24_in_Hz, volt_amps_r_Q4_in_VA|149,7334,-160,838613720,-281|
+|temperature_Q2_in_dC, dc_current_Q8_in_A, dc_voltage_Q8_in_V|95,-43,8675|
+|sunspec state, enphase state|5,3|
+|Event ret code|0x0|
+|Sunspec,Enphase|0x00000000,0x00001000|
+|ReturnCode|OK|
+(1123)CTRL>Attempting to send bias of -235 (q8) to active inverters of box 1.
+
+(1319)CTRL>eac-grid-data
+|ret code|0x0|
+|Grid contactor status|Closed|
+|local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7200,10182,839267710,462|
+|current_rms_Q10_in_A,current_ampl_Q10_in_A,current_thd_Q16,current_power_Q4_in_W,current_reactive_power_Q0_in_VAr|1129,1599,657,-3218,-146|
+|MID Algorithm last decision,last time since bad remote grid|1,-1|
+|ReturnCode|OK|
+(1326)CTRL>bq-check
+|Mode|Normal|
+|ADC gain,ADC offset|377,50|
+|State Reg|0x0|
+|cell_mv_0|3391|
+|cell_mv_1|3392|
+|cell_mv_2|3393|
+|cell_mv_3|3390|
+|cell_mv_4|3389|
+|cell_mv_5|3390|
+|cell_mv_6|3393|
+|cell_mv_7|3392|
+|cell_mv_8|3394|
+|cell_mv_9|3394|
+|Pack Voltage mV|33921|
+|ntc_temp_C_0|26|
+|ntc_temp_C_1|27|
+|Current mA,Total charge Coulombs|5435,5853|
+|CellBal1,CellBal2,CellBal3|0x00,0x00,0x00|
+|ReturnCode|OK|

@@ -1,0 +1,43 @@
+15:07:25 [ COM3] 
+15:07:25 [ COM3] (18286)CTRL>
+15:07:26 [ COM3] time-set 1582153645
+15:07:26 [ COM3] Setting time to 1582153645
+15:07:26 [ COM3] |ReturnCode|OK|
+15:07:26 [ COM3] (18286)CTRL>
+15:07:26 [ COM3] 
+15:07:26 [ COM3] (18286)CTRL>
+15:07:26 [ COM3] prov-set 3
+15:07:26 [ COM3] |ReturnCode|OK|
+15:07:26 [ COM3] (18286)CTRL>
+15:07:26 [ COM3] 
+15:07:26 [ COM3] (18287)CTRL>
+15:07:27 [ COM3] eac-grid-ctrl 1
+15:07:27 [ COM3] |ret code|0x0|
+15:07:27 [ COM3] |ReturnCode|OK|
+15:07:27 [ COM3] (18287)CTRL>
+15:07:57 [ COM3] Attempting to send bias of -155 (q8) to active inverters of box 1.
+15:07:57 [ COM3] 
+15:07:57 [ COM3] (18318)CTRL>
+15:07:57 [ COM3] eac-grid-data
+15:07:57 [ COM3] |ret code|0x0|
+15:07:57 [ COM3] |Grid contactor status|Closed|
+15:07:57 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7193,10172,839601585,540|
+15:07:57 [ COM3] |current_rms_Q10_in_A,current_ampl_Q10_in_A,current_thd_Q16,current_power_Q4_in_W,current_reactive_power_Q0_in_VAr|1204,1703,2079,-4230,-1|
+15:07:57 [ COM3] |MID Algorithm last decision,last time since bad remote grid|1,-1|
+15:07:57 [ COM3] |ReturnCode|OK|
+15:07:57 [ COM3] (18318)CTRL>
+15:08:07 [ COM3] Disabling high priority load port
+15:08:07 [ COM3] Disabling low priority load port
+15:08:07 [ COM3] Enabling high priority load port
+15:08:07 [ COM3] Low priority load port inhibited eLoadPortClosePrevent: 2. 
+15:08:07 [ COM3] Disabling high priority load port
+15:08:07 [ COM3] 
+15:08:07 [ COM3] (18328)CTRL>
+15:08:08 [ COM3] eac-grid-data
+15:08:08 [ COM3] |ret code|0x0|
+15:08:08 [ COM3] |Grid contactor status|Opened|
+15:08:08 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7360,10409,838526925,301|
+15:08:08 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|4079,5769,839841557,727,-276|
+15:08:08 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+15:08:08 [ COM3] |ReturnCode|OK|
+15:08:08 [ COM3] (18328)CTRL>

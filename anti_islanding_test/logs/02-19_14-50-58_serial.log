@@ -1,0 +1,17 @@
+14:50:58 [ COM3] 
+14:50:58 [ COM3] (17298)CTRL>
+14:50:58 [ COM3] time-set 1582152658
+14:50:58 [ COM3] Setting time to 1582152658
+14:50:58 [ COM3] |ReturnCode|OK|
+14:50:58 [ COM3] (17298)CTRL>
+14:50:58 [ COM3] 
+14:50:58 [ COM3] (17299)CTRL>
+14:50:58 [ COM3] prov-set 3
+14:50:58 [ COM3] |ReturnCode|OK|
+14:50:58 [ COM3] (17299)CTRL>
+14:50:59 [ COM3] 
+14:50:59 [ COM3] (17299)CTRL>
+14:50:59 [ COM3] eac-grid-ctrl 1
+14:50:59 [ COM3] |ret code|0x0|
+14:50:59 [ COM3] |ReturnCode|OK|
+14:50:59 [ COM3] (17299)CTRL>

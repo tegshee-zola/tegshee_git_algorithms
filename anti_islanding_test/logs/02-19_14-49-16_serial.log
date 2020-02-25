@@ -1,0 +1,21 @@
+14:49:16 [ COM3] 
+14:49:16 [ COM3] (17196)CTRL>
+14:49:16 [ COM3] time-set 1582152556
+14:49:16 [ COM3] Setting time to 1582152556
+14:49:16 [ COM3] |ReturnCode|OK|
+14:49:16 [ COM3] (17196)CTRL>
+14:49:16 [ COM3] 
+14:49:16 [ COM3] (17197)CTRL>
+14:49:16 [ COM3] prov-set 3
+14:49:16 [ COM3] |ReturnCode|OK|
+14:49:16 [ COM3] (17197)CTRL>
+14:49:17 [ COM3] 
+14:49:17 [ COM3] (17197)CTRL>
+14:49:17 [ COM3] eac-grid-data
+14:49:17 [ COM3] |ret code|0x0|
+14:49:17 [ COM3] |Grid contactor status|Closed|
+14:49:17 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7158,10126,839820690,530|
+14:49:17 [ COM3] |current_rms_Q10_in_A,current_ampl_Q10_in_A,current_thd_Q16,current_power_Q4_in_W,current_reactive_power_Q0_in_VAr|1147,1622,2750,-4010,1|
+14:49:17 [ COM3] |MID Algorithm last decision,last time since bad remote grid|1,-1|
+14:49:17 [ COM3] |ReturnCode|OK|
+14:49:17 [ COM3] (17197)CTRL>

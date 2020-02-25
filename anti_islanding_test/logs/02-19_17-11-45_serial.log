@@ -1,0 +1,38 @@
+17:11:45 [ COM3] 
+17:11:45 [ COM3] (25746)CTRL>
+17:11:45 [ COM3] time-set 1582161105
+17:11:45 [ COM3] Setting time to 1582161105
+17:11:45 [ COM3] |ReturnCode|OK|
+17:11:45 [ COM3] (25746)CTRL>
+17:11:45 [ COM3] 
+17:11:45 [ COM3] (25746)CTRL>
+17:11:45 [ COM3] prov-set 3
+17:11:45 [ COM3] |ReturnCode|OK|
+17:11:45 [ COM3] (25746)CTRL>
+17:12:45 [ COM3] 
+17:12:45 [ COM3] (25806)CTRL>
+17:12:47 [ COM3] eac-grid-ctrl 1
+17:12:47 [ COM3] |ret code|0x0|
+17:12:47 [ COM3] |ReturnCode|OK|
+17:12:47 [ COM3] (25808)CTRL>
+17:13:47 [ COM3] Attempting to send bias of 0 (q8) to active inverters of box 1.
+17:13:47 [ COM3] 
+17:13:47 [ COM3] (25868)CTRL>
+17:13:47 [ COM3] eac-grid-data
+17:13:47 [ COM3] |ret code|0x0|
+17:13:47 [ COM3] |Grid contactor status|Opened|
+17:13:47 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7413,10484,838526925,325|
+17:13:47 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|181,256,654530529,5632,-724|
+17:13:47 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+17:13:47 [ COM3] |ReturnCode|OK|
+17:13:47 [ COM3] (25868)CTRL>
+17:13:47 [ COM3] 
+17:13:47 [ COM3] (25868)CTRL>
+17:13:48 [ COM3] eac-grid-data
+17:13:48 [ COM3] |ret code|0x0|
+17:13:48 [ COM3] |Grid contactor status|Opened|
+17:13:48 [ COM3] |local_rms_Q5_in_V,local_ampl_Q5_in_V,local_freq_Q24_in_Hz,local_thd_Q16|7392,10454,839998061,588|
+17:13:48 [ COM3] |remote_rms_Q5_in_V,remote_ampl_Q5_in_V,remote_freq_Q24_in_Hz,remote_thd_Q16, remote_phase_q8_in_rad|181,256,575318698,4608,-504|
+17:13:48 [ COM3] |MID Algorithm last decision,last time since bad remote grid|0,-1|
+17:13:48 [ COM3] |ReturnCode|OK|
+17:13:48 [ COM3] (25869)CTRL>
